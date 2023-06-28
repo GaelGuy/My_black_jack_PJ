@@ -43,7 +43,7 @@ def score_count(deck,card_in_hand):
 def Display1(player_card,deck,com_display,com_card):
   print(logo) 
   print(f"your cards : {player_card} \nScore {score_count(cards,player_card)}")
-  print(f"oppenent cards : {com_display}\nScore {score_count(cards,com_card)}")
+  print(f"oppenent cards : {com_display}\nScore {score_count(cards,com_display[1])}")
   
 def Display2(player_card,deck,com_display,com_card):
   print(logo) 
